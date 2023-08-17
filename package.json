@@ -1,0 +1,12 @@
+{
+  "name": "simple_password_encrypter",
+  "version": "1.0.0",
+  "description": "Simple Node Js Password Encrypter",
+  "main": "test.js",
+  "scripts": {
+    "start": "nodemon test"
+  },
+  "keywords": [],
+  "author": "Yohannes Sintayehu",
+  "license": "ISC"
+}
