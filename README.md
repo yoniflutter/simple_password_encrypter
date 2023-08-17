@@ -23,6 +23,7 @@ Then change these line of code with your own password
     const password2 = "test";
     // make this password the same as the above if you want to get Authentication true message on the console
 
+    // don't edit this line of code
     const { hash, salt } = encrypt(password1, 10);
     console.log("Password hashed is ", hash);
     const decrypted = decrypt(password2, hash, salt, 10);
